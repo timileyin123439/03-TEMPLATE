@@ -1,0 +1,161 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+header{
+  position: relative;
+
+
+}
+
+  .me{
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+
+  }
+    .okay{
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+    border: 1px solid lightgray;
+    color: lightgray;
+    text-align: center;
+    transform: translate(-29%, -60%);
+    display: block;
+    letter-spacing: 4px;
+    font-size: 30px;
+    padding: 10px;
+}
+.okay h2 {
+ margin: 0px;
+}
+.you{
+    color: lightgray;
+    text-align: center;
+    display: block;
+    letter-spacing: 4px;
+    font-size: medium;
+}
+.alright{
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+  size: 30px;
+}
+.before{
+  text-decoration: none;
+  display: block; 
+  background-color: aliceblue;
+  border-radius: 4px;
+  padding: 15px;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  overflow: hidden;
+  gap: 60px;
+  word-spacing: 15px;
+  transform: translate(-45%, -10%);
+}
+.we img{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 30px;
+}
+.center{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.after{
+  align-items: center;
+  padding-right: 175px;
+  padding-left: 175px;
+  font-size: 20px;
+}
+.mail{
+  width: 95%;
+  border: 2px solid white;
+  padding: 8px;
+}
+.went{
+  width: 95%;
+  background-color: cadetblue;
+  padding: 8px;}
+:hover .went{
+  background: none;
+  }
+
+@media screen and (max-width:600px) {
+  .we {
+    padding: 30px;
+  }
+  .we img{
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  }
+  .after {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 30px;
+  }
+  .before{
+    transform: translate(-60%, -850%);
+  
+  }
+  .okay{
+    font-size: 5px;
+  }
+  /* .me{
+  display: contents;
+  width: 100%;
+  max-height: 100%;
+  } */
+}
+@media screen and (max-width:500px) {
+  .we {
+    padding: 30px;
+  }
+  .we img{
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  }
+  .after {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 30px;
+  }
+  .before{
+    transform: translate(-50%, -550%);
+    position: fixed;
+    overflow-x: hidden;
+  }
+  .okay{
+    font-size: 5px;
+  }
+}
+@media screen and (max-width:800px) {
+  .before{
+    transform: translate(-50%, -350%);
+  }
+  .we {
+    padding: 30px;
+  }
+  .we img{
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  }
+  .after {
+    padding-left: 0;
+    padding-right: 0;
+    padding: 30px;
+  }
+}
